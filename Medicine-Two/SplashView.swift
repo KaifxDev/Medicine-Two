@@ -8,11 +8,37 @@
 import SwiftUI
 
 struct SplashView: View {
+    
+    @State var isActive: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            if self.isActive {
+                ContentView()
+            } else {
+                Rectangle()
+                    .background(Color.black)
+                Image("WeBareCross")
+                    .resizable()
+                    .scaledToFit()
+                    .shadow(radius: 100)
+                    .frame(width: 300, height: 300)
+                
+            }
+        }
+        .onAppear{
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
+                withAnimation{
+                    self.isActive = true
+                }
+            }
+        }
+        
     }
 }
 
-#Preview {
-    SplashView()
+struct SplashView_Previews: PreviewProvider {
+        static var previews: some View {
+            SplashView()
+     }
 }

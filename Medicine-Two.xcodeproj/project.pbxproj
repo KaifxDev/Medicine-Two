@@ -15,6 +15,7 @@
 		BCA6B4FB2BD6C9DD00A3BC9D /* Medicine_TwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B4FA2BD6C9DD00A3BC9D /* Medicine_TwoTests.swift */; };
 		BCA6B5052BD6C9DD00A3BC9D /* Medicine_TwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B5042BD6C9DD00A3BC9D /* Medicine_TwoUITests.swift */; };
 		BCA6B5072BD6C9DD00A3BC9D /* Medicine_TwoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B5062BD6C9DD00A3BC9D /* Medicine_TwoUITestsLaunchTests.swift */; };
+		BCA6B5142BD6D97900A3BC9D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B5132BD6D97900A3BC9D /* SplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BCA6B5002BD6C9DD00A3BC9D /* Medicine-TwoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medicine-TwoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA6B5042BD6C9DD00A3BC9D /* Medicine_TwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine_TwoUITests.swift; sourceTree = "<group>"; };
 		BCA6B5062BD6C9DD00A3BC9D /* Medicine_TwoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine_TwoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BCA6B5132BD6D97900A3BC9D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BCA6B4E62BD6C9DB00A3BC9D /* Medicine_TwoApp.swift */,
 				BCA6B4E82BD6C9DB00A3BC9D /* ContentView.swift */,
+				BCA6B5132BD6D97900A3BC9D /* SplashView.swift */,
 				BCA6B4EA2BD6C9DB00A3BC9D /* Item.swift */,
 				BCA6B4EC2BD6C9DD00A3BC9D /* Assets.xcassets */,
 				BCA6B4EE2BD6C9DD00A3BC9D /* Medicine_Two.entitlements */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCA6B4E92BD6C9DB00A3BC9D /* ContentView.swift in Sources */,
+				BCA6B5142BD6D97900A3BC9D /* SplashView.swift in Sources */,
 				BCA6B4EB2BD6C9DB00A3BC9D /* Item.swift in Sources */,
 				BCA6B4E72BD6C9DB00A3BC9D /* Medicine_TwoApp.swift in Sources */,
 			);
