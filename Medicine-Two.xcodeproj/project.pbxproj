@@ -16,6 +16,7 @@
 		BCA6B5052BD6C9DD00A3BC9D /* Medicine_TwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B5042BD6C9DD00A3BC9D /* Medicine_TwoUITests.swift */; };
 		BCA6B5072BD6C9DD00A3BC9D /* Medicine_TwoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B5062BD6C9DD00A3BC9D /* Medicine_TwoUITestsLaunchTests.swift */; };
 		BCA6B5142BD6D97900A3BC9D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B5132BD6D97900A3BC9D /* SplashView.swift */; };
+		BCA6B5182BD6E51900A3BC9D /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA6B5172BD6E51900A3BC9D /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BCA6B5042BD6C9DD00A3BC9D /* Medicine_TwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine_TwoUITests.swift; sourceTree = "<group>"; };
 		BCA6B5062BD6C9DD00A3BC9D /* Medicine_TwoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicine_TwoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BCA6B5132BD6D97900A3BC9D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		BCA6B5172BD6E51900A3BC9D /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				BCA6B4E62BD6C9DB00A3BC9D /* Medicine_TwoApp.swift */,
 				BCA6B4E82BD6C9DB00A3BC9D /* ContentView.swift */,
+				BCA6B5172BD6E51900A3BC9D /* HomePage.swift */,
 				BCA6B5132BD6D97900A3BC9D /* SplashView.swift */,
 				BCA6B4EA2BD6C9DB00A3BC9D /* Item.swift */,
 				BCA6B4EC2BD6C9DD00A3BC9D /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA6B5182BD6E51900A3BC9D /* HomePage.swift in Sources */,
 				BCA6B4E92BD6C9DB00A3BC9D /* ContentView.swift in Sources */,
 				BCA6B5142BD6D97900A3BC9D /* SplashView.swift in Sources */,
 				BCA6B4EB2BD6C9DB00A3BC9D /* Item.swift in Sources */,
